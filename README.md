@@ -52,9 +52,19 @@ Highlights:
 ---
 
 
+## 🚀 Quick Start with Google Colab
 
-# Install dependencies
-pip install -r requirements.txt
+For a hands-on demonstration without any local setup, you can run this project directly in **Google Colab**.  
+The notebook provides a complete environment to load our pretrained Thai text encoder, run Stable Diffusion, and generate images from Thai prompts.  
+
+👉 [Open in Colab](https://colab.research.google.com/github/YOUR-USERNAME/thai-t2i-encoder/blob/main/notebooks/Thai_T2I_Demo.ipynb)
+
+The Colab notebook covers:
+- Installing dependencies automatically  
+- Downloading pretrained checkpoints (PYBsyn / PYB)  
+- Running inference with Thai prompts  
+- Visualizing and saving generated images  
+
 
 
 ### 📬 Contact
