@@ -79,29 +79,20 @@ The Colab notebook covers:
 
 ## 📥 Pretrained Checkpoints
 
-We release the following trained Thai text encoders:
+All checkpoints are hosted in this repository:  
+👉 [Hugging Face: OHMEGA/T2I4Thai](https://huggingface.co/OHMEGA/T2I4Thai)
 
-| Model | Training Strategy | Dataset | Link |
-|-------|------------------|---------|------|
-| **FT-PYBsyn** | Full fine-tuning | 121k enriched synthetic captions | [Hugging Face](https://huggingface.co/YOUR-USERNAME/thai-t2i-encoder-FT-PYBsyn) |
-| **PEFT-PYBsyn** | Adapter training (parameter-efficient) | 121k enriched synthetic captions | [Hugging Face](https://huggingface.co/YOUR-USERNAME/thai-t2i-encoder-PEFT-PYBsyn) |
-| **FT-PYB** | Full fine-tuning | 795k bilingual captions | [Hugging Face](https://huggingface.co/YOUR-USERNAME/thai-t2i-encoder-FT-PYB) |
-| **PEFT-PYB** | Adapter training | 795k bilingual captions | [Hugging Face](https://huggingface.co/YOUR-USERNAME/thai-t2i-encoder-PEFT-PYB) |
+| Filename | Model | Strategy | Dataset |
+|----------|-------|----------|---------|
+| `PYB_FC_AdamW_best_121K_synthetic_weights.pth` | PYBsyn | Full Fine-Tuning (FT) | 121k enriched synthetic captions |
+| `PYB_FC_AdamW_best_795k_weights.pth` | PYB | Full Fine-Tuning (FT) | 795k bilingual captions |
+| `PYB_best_9.4mAdapter_203k_syn.pth` | PYBsyn | PEFT (Adapter, 9.4M params) | 203k synthetic captions |
+| `XLM_B_FC_AdamW_best_795k_weights.pth` | XLM-R Base | Full Fine-Tuning (FT) | 795k bilingual captions |
+| `no_att_XLM_B_AdamW_best_9.4mAdapterBN77_syn.pth` | XLM-R Base | PEFT (Adapter) | 203k synthetic captions |
 
----
-
-### 🔑 Which model should I use?
-
-- **FT-PYBsyn (recommended):**  
-  Best overall quality, especially for Thai cultural prompts.  
-
-- **PEFT-PYBsyn:**  
-  Lightweight and fast; good balance between quality and efficiency.  
-
-- **FT-PYB / PEFT-PYB:**  
-  Trained on larger bilingual dataset (795k captions), but may include domain mismatches.  
 
 ---
+
 
 ### 📌 How to load in Python
 
@@ -110,10 +101,13 @@ from huggingface_hub import hf_hub_download
 
 # Example: download FT-PYBsyn
 ckpt_path = hf_hub_download(
-    repo_id="YOUR-USERNAME/thai-t2i-encoder-FT-PYBsyn",
-    filename="pytorch_model.bin"  # or safetensors file
+    repo_id="OHMEGA/T2I4Thai",
+    filename="PYB_FC_AdamW_best_121K_synthetic_weights.pth"
 )
 
+print("Checkpoint saved at:", ckpt_path)
+ 
+```
 
 
 
