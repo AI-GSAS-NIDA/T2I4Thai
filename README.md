@@ -36,7 +36,7 @@ This ensures **compatibility with Stable Diffusion** while capturing **Thai ling
 ## 🖼️ Results (Fig.4)
 
 <p align="center">
-  <img src="Figure 2.jpg" width="800"/>
+  <img src="Figure 4.jpg" width="800"/>
 </p>
 
 **Fig. 4: Qualitative comparison**  
