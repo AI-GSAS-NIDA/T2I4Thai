@@ -55,3 +55,20 @@ Highlights:
 
 # Install dependencies
 pip install -r requirements.txt
+
+
+
+## 📖 Citation
+@article{siriborvornratanakul2025thaiT2I,
+  title={Optimizing low-resource language encoders for text-to-image generation: a case study on Thai},
+  author={Siriborvornratanakul, Thitirat and Bunyang, Songpol},
+  journal={Multimedia Systems},
+  year={2025},
+  publisher={Springer},
+  doi={10.1007/s00530-025-01834-1}
+}
+
+
+##📬 Contact
+Thitirat Siriborvornratanakul (NIDA) — thitirat@as.nida.ac.th
+Songpol Bunyang — songpol.buny@gmail.com
