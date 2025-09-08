@@ -55,13 +55,23 @@ Highlights:
 ## 🚀 Quick Start with Google Colab
 
 For a hands-on demonstration without any local setup, you can run this project directly in **Google Colab**.  
-The notebook provides a complete environment to load our pretrained Thai text encoder, run Stable Diffusion, and generate images from Thai prompts.  
+We provide two demo notebooks for inference using our pretrained Thai encoders:
 
-👉 [Open in Colab](https://colab.research.google.com/github/YOUR-USERNAME/thai-t2i-encoder/blob/main/notebooks/Thai_T2I_Demo.ipynb)
+- **[FT-PYBsyn (Full Fine-Tuning)](https://colab.research.google.com/github/YOUR-USERNAME/thai-t2i-encoder/blob/main/notebooks/FT_PYBsyn_Demo.ipynb)**  
+  <a href="https://colab.research.google.com/github/YOUR-USERNAME/thai-t2i-encoder/blob/main/notebooks/FT_PYBsyn_Demo.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+  </a>
+
+- **[PEFT-PYBsyn (Adapter Training)](https://colab.research.google.com/github/YOUR-USERNAME/thai-t2i-encoder/blob/main/notebooks/PEFT_PYBsyn_Demo.ipynb)**  
+  <a href="https://colab.research.google.com/github/YOUR-USERNAME/thai-t2i-encoder/blob/main/notebooks/PEFT_PYBsyn_Demo.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+  </a>
+
+---
 
 The Colab notebook covers:
 - Installing dependencies automatically  
-- Downloading pretrained checkpoints (PYBsyn / PYB)  
+- Downloading pretrained checkpoints (PYBsyn / XLM)  
 - Running inference with Thai prompts  
 - Visualizing and saving generated images  
 
