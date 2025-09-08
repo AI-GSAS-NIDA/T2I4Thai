@@ -19,7 +19,7 @@ This project introduces a **Thai-specific text encoder** (`PYBsyn`) trained with
 
 ---
 
-## 🔑 Method (Fig.2)
+## 🔑 Method
 
 <p align="center">
   <img src="Figure 1.jpg" width="600"/>
@@ -33,7 +33,7 @@ This ensures **compatibility with Stable Diffusion** while capturing **Thai ling
 
 ---
 
-## 🖼️ Results (Fig.4)
+## 🖼️ Results 
 
 <p align="center">
   <img src="Figure 4.jpg" width="800"/>
