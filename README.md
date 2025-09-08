@@ -58,7 +58,7 @@ For a hands-on demonstration without any local setup, you can run this project d
 We provide two demo notebooks for inference using our pretrained Thai encoders:
 
 - **[FT-PYBsyn (Full Fine-Tuning)]([https://colab.research.google.com/github/YOUR-USERNAME/thai-t2i-encoder/blob/main/notebooks/FT_PYBsyn_Demo.ipynb](https://colab.research.google.com/drive/1ZC8thpZtJsHPpmpHkG1U2wxAWuj3RldD?usp=sharing))**  
-  <a href="[https://colab.research.google.com/github/YOUR-USERNAME/thai-t2i-encoder/blob/main/notebooks/FT_PYBsyn_Demo.ipynb](https://colab.research.google.com/drive/1ZC8thpZtJsHPpmpHkG1U2wxAWuj3RldD?usp=sharing)">
+  <a href="https://colab.research.google.com/drive/1ZC8thpZtJsHPpmpHkG1U2wxAWuj3RldD?usp=sharing">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
   </a>
 
