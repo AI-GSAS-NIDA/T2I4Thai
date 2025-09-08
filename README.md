@@ -77,6 +77,49 @@ The Colab notebook covers:
 
 
 
+## 📥 Pretrained Checkpoints
+
+We release the following trained Thai text encoders:
+
+| Model | Training Strategy | Dataset | Link |
+|-------|------------------|---------|------|
+| **FT-PYBsyn** | Full fine-tuning | 121k enriched synthetic captions | [Hugging Face](https://huggingface.co/YOUR-USERNAME/thai-t2i-encoder-FT-PYBsyn) |
+| **PEFT-PYBsyn** | Adapter training (parameter-efficient) | 121k enriched synthetic captions | [Hugging Face](https://huggingface.co/YOUR-USERNAME/thai-t2i-encoder-PEFT-PYBsyn) |
+| **FT-PYB** | Full fine-tuning | 795k bilingual captions | [Hugging Face](https://huggingface.co/YOUR-USERNAME/thai-t2i-encoder-FT-PYB) |
+| **PEFT-PYB** | Adapter training | 795k bilingual captions | [Hugging Face](https://huggingface.co/YOUR-USERNAME/thai-t2i-encoder-PEFT-PYB) |
+
+---
+
+### 🔑 Which model should I use?
+
+- **FT-PYBsyn (recommended):**  
+  Best overall quality, especially for Thai cultural prompts.  
+
+- **PEFT-PYBsyn:**  
+  Lightweight and fast; good balance between quality and efficiency.  
+
+- **FT-PYB / PEFT-PYB:**  
+  Trained on larger bilingual dataset (795k captions), but may include domain mismatches.  
+
+---
+
+### 📌 How to load in Python
+
+```python
+from huggingface_hub import hf_hub_download
+
+# Example: download FT-PYBsyn
+ckpt_path = hf_hub_download(
+    repo_id="YOUR-USERNAME/thai-t2i-encoder-FT-PYBsyn",
+    filename="pytorch_model.bin"  # or safetensors file
+)
+
+
+
+
+
+
+
 ### 📬 Contact
 Thitirat Siriborvornratanakul (NIDA) — thitirat@as.nida.ac.th
 Songpol Bunyang — songpol.buny@gmail.com
