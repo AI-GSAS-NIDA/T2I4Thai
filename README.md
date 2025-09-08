@@ -69,7 +69,7 @@ We provide two demo notebooks for inference using our pretrained Thai encoders:
 
 The Colab notebook covers:
 - Installing dependencies automatically  
-- Downloading pretrained checkpoints (PYBsyn / XLM)  
+- Downloading pretrained checkpoints (FT-PYBsyn / FT-PYB / FT-XLM-R / PEFT-PYBsyn / PEFT-XLM-R)  
 - Running inference with Thai prompts  
 - Visualizing and saving generated images  
 
