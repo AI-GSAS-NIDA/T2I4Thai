@@ -25,7 +25,7 @@ This project introduces a **Thai-specific text encoder** trained with a **teache
   <img src="Figure 1.jpg" width="600"/>
 </p>
 
-***Fig. 2: Two-stage framework**  
+**Fig. 2: Two-stage framework**  
 1. **Teacher Learning:** Align Thai text encoder (student) with frozen CLIP text encoder (teacher) using English–Thai parallel captions.  
 2. **Inference:** Thai embeddings are injected into Stable Diffusion’s UNet, guiding image generation directly from Thai prompts.  
 
@@ -37,9 +37,10 @@ This ensures **compatibility with Stable Diffusion** while capturing **Thai ling
 
 <p align="center">
   <img src="Figure 4.jpg" width="800"/>
+  Fig. 4: Qualitative comparison
 </p>
 
-***Fig. 4: Qualitative comparison**  
+**Fig. 4: Qualitative comparison**  
 - **Rows:** Translation → GlueGen → Ours (FT + PEFT).  
 - **Columns:** Different benchmarks (PartiP-70, General-50, Cultural-21).  
 - Our models (`PYB` and `PYBsyn`) generate **more culturally faithful and aesthetically pleasing images** compared to translation and GlueGen.  
