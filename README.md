@@ -78,10 +78,7 @@ The Colab notebook covers:
 ## 📥 Pretrained Checkpoints
 
 All checkpoints are hosted in this repository:  
-<a href="https://huggingface.co/OHMEGA/T2I4Thai">
-  <img src="https://huggingface.co/front/assets/huggingface_logo.svg" width="150"/>
-</a>
-[Hugging Face: OHMEGA/T2I4Thai](https://huggingface.co/OHMEGA/T2I4Thai)
+Checkpoints are available on 🤗 [Hugging Face Hub](https://huggingface.co/OHMEGA/T2I4Thai) [Hugging Face: OHMEGA/T2I4Thai](https://huggingface.co/OHMEGA/T2I4Thai)
 
 | Model            | Strategy                | Dataset                     | Filename |
 |------------------|-------------------------|-----------------------------|----------|
