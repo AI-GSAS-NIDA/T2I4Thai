@@ -59,6 +59,9 @@ pip install -r requirements.txt
 
 
 ## 📖 Citation
+If you use this work, please cite:
+
+```bibtex
 @article{siriborvornratanakul2025thaiT2I,
   title={Optimizing low-resource language encoders for text-to-image generation: a case study on Thai},
   author={Siriborvornratanakul, Thitirat and Bunyang, Songpol},
