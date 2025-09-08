@@ -62,7 +62,7 @@ We provide two demo notebooks for inference using our pretrained Thai encoders:
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
   </a>
 
-- **[PEFT-PYBsyn (Adapter Training)](https://colab.research.google.com/github/YOUR-USERNAME/thai-t2i-encoder/blob/main/notebooks/PEFT_PYBsyn_Demo.ipynb)**  
+- **[PEFT-PYBsyn (Adapter Training)]**  
   <a href="https://colab.research.google.com/drive/11If6gWyjr78lhBUWtLNUI4wnlMAJdcJC?usp=sharing">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
   </a>
