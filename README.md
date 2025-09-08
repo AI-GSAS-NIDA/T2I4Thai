@@ -57,6 +57,9 @@ Highlights:
 pip install -r requirements.txt
 
 
+### 📬 Contact
+Thitirat Siriborvornratanakul (NIDA) — thitirat@as.nida.ac.th
+Songpol Bunyang — songpol.buny@gmail.com
 
 ## 📖 Citation
 If you use this work, please cite:
@@ -72,6 +75,4 @@ If you use this work, please cite:
 }
 
 
-### 📬 Contact
-Thitirat Siriborvornratanakul (NIDA) — thitirat@as.nida.ac.th
-Songpol Bunyang — songpol.buny@gmail.com
+
