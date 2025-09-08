@@ -11,7 +11,7 @@ Official repository for the paper:
 ## 🌏 Overview
 
 Diffusion models like **Stable Diffusion** are powerful for text-to-image generation, but most are English-only.  
-This project introduces a **Thai-specific text encoder** (`PYBsyn`) trained with a **teacher–student cross-lingual learning framework**.  
+This project introduces a **Thai-specific text encoder** trained with a **teacher–student cross-lingual learning framework**.  
 
 - Preserves **Thai cultural nuance** in image generation.  
 - Uses **121k enriched synthetic captions** for efficient training.  
