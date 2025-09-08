@@ -84,11 +84,11 @@ All checkpoints are hosted in this repository:
 
 | Filename | Model | Strategy | Dataset |
 |----------|-------|----------|---------|
-| `PYB_FC_AdamW_best_121K_synthetic_weights.pth` | PYBsyn | Full Fine-Tuning (FT) | 121k enriched synthetic captions |
-| `PYB_FC_AdamW_best_795k_weights.pth` | PYB | Full Fine-Tuning (FT) | 795k bilingual captions |
-| `PYB_best_9.4mAdapter_203k_syn.pth` | PYBsyn | PEFT (Adapter, 9.4M params) | 203k synthetic captions |
-| `XLM_B_FC_AdamW_best_795k_weights.pth` | XLM-R Base | Full Fine-Tuning (FT) | 795k bilingual captions |
-| `no_att_XLM_B_AdamW_best_9.4mAdapterBN77_syn.pth` | XLM-R Base | PEFT (Adapter) | 203k synthetic captions |
+| `PYB_FC_AdamW_best_121K_synthetic_weights.pth` | FT-PYBsyn | Full Fine-Tuning (FT) | 121k enriched synthetic captions |
+| `PYB_FC_AdamW_best_795k_weights.pth` | FT-PYB | Full Fine-Tuning (FT) | 795k bilingual captions |
+| `XLM_B_FC_AdamW_best_795k_weights.pth` | FT-XLM-R Base | Full Fine-Tuning (FT) | 795k bilingual captions |
+| `PYB_best_9.4mAdapter_203k_syn.pth` | PEFT-PYBsyn | PEFT (Adapter, 9.4M params) | 203k synthetic captions |
+| `no_att_XLM_B_AdamW_best_9.4mAdapterBN77_syn.pth` | PEFT-XLM-R Base | PEFT (Adapter) | 203k synthetic captions |
 
 
 ---
