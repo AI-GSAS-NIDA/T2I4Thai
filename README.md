@@ -19,13 +19,39 @@ This project introduces a **Thai-specific text encoder** (`PYBsyn`) trained with
 
 ---
 
-## 🔑 Key Contributions
+## 🔑 Method (Fig.2)
 
-- Lightweight **Thai encoder** for Stable Diffusion.  
-- Demonstrated that **synthetic bilingual data** can replace huge multilingual datasets.  
-- Achieved **100% win rate** on Thai Cultural benchmark (CLIPScore, ImageReward, PickScore).  
+<p align="center">
+  <img src="Figure 1.jpg" width="600"/>
+</p>
+
+**Fig. 2: Two-stage framework**  
+1. **Teacher Learning:** Align Thai text encoder (student) with frozen CLIP text encoder (teacher) using English–Thai parallel captions.  
+2. **Inference:** Thai embeddings are injected into Stable Diffusion’s UNet, guiding image generation directly from Thai prompts.  
+
+This ensures **compatibility with Stable Diffusion** while capturing **Thai linguistic and cultural nuances**.
 
 ---
 
-## ⚙️ Installation
+## 🖼️ Results (Fig.4)
 
+<p align="center">
+  <img src="Figure 2.jpg" width="800"/>
+</p>
+
+**Fig. 4: Qualitative comparison**  
+- **Rows:** Translation → GlueGen → Ours (FT + PEFT).  
+- **Columns:** Different benchmarks (PartiP-70, General-50, Cultural-21).  
+- Our models (`PYB` and `PYBsyn`) generate **more culturally faithful and aesthetically pleasing images** compared to translation and GlueGen.  
+
+Highlights:  
+- Translation often misses nuance.  
+- GlueGen produces low-aesthetic results.  
+- **Our method captures Thai-specific details** (e.g., Muay Thai, Pad Thai, landmarks).
+
+---
+
+
+
+# Install dependencies
+pip install -r requirements.txt
