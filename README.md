@@ -82,11 +82,11 @@ All checkpoints are hosted in this repository:
 
 | Model            | Strategy                | Dataset                     | Filename |
 |------------------|-------------------------|-----------------------------|----------|
-| FT-PYBsyn        | Full Fine-Tuning (FT)   | enriched synthetic     | `PYB_FC_AdamW_best_121K_synthetic_weights.pth` |
-| FT-PYB           | Full Fine-Tuning (FT)   | 795k bilingual captions     | `PYB_FC_AdamW_best_795k_weights.pth` |
-| FT-XLM-R Base    | Full Fine-Tuning (FT)   | 795k bilingual captions     | `XLM_B_FC_AdamW_best_795k_weights.pth` |
-| PEFT-PYBsyn      | Adapter (9.4M params)   | enriched synthetic      | `PYB_best_9.4mAdapter_203k_syn.pth` |
-| PEFT-XLM-R Base  | Adapter (9.4M params)   | enriched synthetic      | `no_att_XLM_B_AdamW_best_9.4mAdapterBN77_syn.pth` |
+| FT-PYBsyn        | Full Fine-Tuning (FT)   | Enriched synthetic     | `PYB_FC_AdamW_best_121K_synthetic_GPT_tran.pth` |
+| FT-PYB           | Full Fine-Tuning (FT)   | Large-Scale Dataset    | `PYB_FC_AdamW_best_795k_weights.pth` |
+| FT-XLM-R Base    | Full Fine-Tuning (FT)   | Large-Scale Dataset    | `XLM_B_FC_AdamW_best_795k_weights.pth` |
+| PEFT-PYBsyn      | Adapter (9.4M params)   | Enriched synthetic      | `PYB_best_9.4mAdapter_203k_syn.pth` |
+| PEFT-XLM-R Base  | Adapter (9.4M params)   | Enriched synthetic      | `no_att_XLM_B_AdamW_best_9.4mAdapterBN77_795k_enrich_weights.pth` |
 
 
 ---
@@ -100,7 +100,7 @@ from huggingface_hub import hf_hub_download
 # Example: download FT-PYBsyn
 ckpt_path = hf_hub_download(
     repo_id="OHMEGA/T2I4Thai",
-    filename="PYB_FC_AdamW_best_121K_synthetic_weights.pth"
+    filename="PYB_FC_AdamW_best_121K_synthetic_GPT_tran.pth"
 )
 
 print("Checkpoint saved at:", ckpt_path)
