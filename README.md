@@ -89,10 +89,10 @@ All checkpoints are hosted in this repository:
 | PEFT-XLM-R Base  | Adapter (9.4M params)   | Enriched synthetic      | `no_att_XLM_B_AdamW_best_9.4mAdapterBN77_795k_enrich_weights.pth` |
 
 
----
 
 
-### 📌 How to load in Python
+
+#### 📌 How to load in Python
 
 ```python
 from huggingface_hub import hf_hub_download
