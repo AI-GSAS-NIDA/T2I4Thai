@@ -67,28 +67,26 @@ We provide two demo notebooks for inference using our pretrained Thai encoders:
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
   </a>
 
----
-
 The Colab notebook covers:
 - Installing dependencies automatically  
 - Downloading pretrained checkpoints (PYBsyn / XLM)  
 - Running inference with Thai prompts  
 - Visualizing and saving generated images  
 
-
+---
 
 ## 📥 Pretrained Checkpoints
 
 All checkpoints are hosted in this repository:  
 👉 [Hugging Face: OHMEGA/T2I4Thai](https://huggingface.co/OHMEGA/T2I4Thai)
 
-| Filename | Model | Strategy | Dataset |
-|----------|-------|----------|---------|
-| `PYB_FC_AdamW_best_121K_synthetic_weights.pth` | FT-PYBsyn | Full Fine-Tuning (FT) | 121k enriched synthetic captions |
-| `PYB_FC_AdamW_best_795k_weights.pth` | FT-PYB | Full Fine-Tuning (FT) | 795k bilingual captions |
-| `XLM_B_FC_AdamW_best_795k_weights.pth` | FT-XLM-R Base | Full Fine-Tuning (FT) | 795k bilingual captions |
-| `PYB_best_9.4mAdapter_203k_syn.pth` | PEFT-PYBsyn | PEFT (Adapter, 9.4M params) | 203k synthetic captions |
-| `no_att_XLM_B_AdamW_best_9.4mAdapterBN77_syn.pth` | PEFT-XLM-R Base | PEFT (Adapter) | 203k synthetic captions |
+| Model            | Strategy                | Dataset                     | Filename |
+|------------------|-------------------------|-----------------------------|----------|
+| FT-PYBsyn        | Full Fine-Tuning (FT)   | enriched synthetic     | `PYB_FC_AdamW_best_121K_synthetic_weights.pth` |
+| FT-PYB           | Full Fine-Tuning (FT)   | 795k bilingual captions     | `PYB_FC_AdamW_best_795k_weights.pth` |
+| FT-XLM-R Base    | Full Fine-Tuning (FT)   | 795k bilingual captions     | `XLM_B_FC_AdamW_best_795k_weights.pth` |
+| PEFT-PYBsyn      | Adapter (9.4M params)   | enriched synthetic      | `PYB_best_9.4mAdapter_203k_syn.pth` |
+| PEFT-XLM-R Base  | Adapter (9.4M params)   | enriched synthetic      | `no_att_XLM_B_AdamW_best_9.4mAdapterBN77_syn.pth` |
 
 
 ---
