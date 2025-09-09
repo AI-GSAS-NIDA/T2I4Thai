@@ -131,6 +131,3 @@ If you use this work, please cite:
   publisher={Springer},
   doi={10.1007/s00530-025-01834-1}
 }
-
-
-
