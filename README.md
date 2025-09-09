@@ -80,21 +80,13 @@ The Colab notebook covers:
 All checkpoints are hosted in this repository:  
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Model%20Hub-yellow.svg)](https://huggingface.co/OHMEGA/T2I4Thai)
 
-| Model            | Strategy                | Dataset                     | Filename |
-|------------------|-------------------------|-----------------------------|----------|
-| FT-PYBsyn        | Full Fine-Tuning (FT)   | Enriched synthetic     | `PYB_FC_AdamW_best_121K_synthetic_GPT_tran.pth` |
-| FT-PYB           | Full Fine-Tuning (FT)   | Large-Scale Dataset    | `PYB_FC_AdamW_best_795k_weights.pth` |
-| FT-XLM-R Base    | Full Fine-Tuning (FT)   | Large-Scale Dataset    | `XLM_B_FC_AdamW_best_795k_weights.pth` |
-| PEFT-PYBsyn      | Adapter (9.4M params)   | Enriched synthetic      | `PYB_best_9.4mAdapter_203k_syn.pth` |
-| PEFT-XLM-R Base  | Adapter (9.4M params)   | Enriched synthetic      | `no_att_XLM_B_AdamW_best_9.4mAdapterBN77_795k_enrich_weights.pth` |
-
 | Model            | Strategy                | Dataset                 | HF Link |
 |------------------|-------------------------|-------------------------|----------|
 | FT-PYBsyn        | Full Fine-Tuning (FT)   | Enriched synthetic      | [Link](https://huggingface.co/OHMEGA/T2I4Thai/blob/main/PYB_FC_AdamW_best_121K_synthetic_GPT_tran.pth) |
-| FT-PYB           | Full Fine-Tuning (FT)   | Large-Scale Dataset     | [PYB_FC_AdamW_best_795k_weights.pth](https://huggingface.co/OHMEGA/T2I4Thai/blob/main/PYB_FC_AdamW_best_795k_weights.pth) |
-| FT-XLM-R Base    | Full Fine-Tuning (FT)   | Large-Scale Dataset     | [XLM_B_FC_AdamW_best_795k_weights.pth](https://huggingface.co/OHMEGA/T2I4Thai/blob/main/XLM_B_FC_AdamW_best_795k_weights.pth) |
-| PEFT-PYBsyn      | Adapter (9.4M params)   | Enriched synthetic      | [PYB_best_9.4mAdapter_203k_syn.pth](https://huggingface.co/OHMEGA/T2I4Thai/blob/main/PYB_best_9.4mAdapter_203k_syn.pth) |
-| PEFT-XLM-R Base  | Adapter (9.4M params)   | Enriched synthetic      | [no_att_XLM_B_AdamW_best_9.4mAdapterBN77_795k_enrich_weights.pth](https://huggingface.co/OHMEGA/T2I4Thai/blob/main/no_att_XLM_B_AdamW_best_9.4mAdapterBN77_795k_enrich_weights.pth) |
+| FT-PYB           | Full Fine-Tuning (FT)   | Large-Scale Dataset     | [Link](https://huggingface.co/OHMEGA/T2I4Thai/blob/main/PYB_FC_AdamW_best_795k_weights.pth) |
+| FT-XLM-R Base    | Full Fine-Tuning (FT)   | Large-Scale Dataset     | [Link](https://huggingface.co/OHMEGA/T2I4Thai/blob/main/XLM_B_FC_AdamW_best_795k_weights.pth) |
+| PEFT-PYBsyn      | Adapter (9.4M params)   | Enriched synthetic      | [Link](https://huggingface.co/OHMEGA/T2I4Thai/blob/main/PYB_best_9.4mAdapter_203k_syn.pth) |
+| PEFT-XLM-R Base  | Adapter (9.4M params)   | Enriched synthetic      | [Link](https://huggingface.co/OHMEGA/T2I4Thai/blob/main/no_att_XLM_B_AdamW_best_9.4mAdapterBN77_795k_enrich_weights.pth) |
 
 
 
