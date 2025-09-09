@@ -113,8 +113,7 @@ print("Checkpoint saved at:", ckpt_path)
 
 
 ### 📬 Contact
-Thitirat Siriborvornratanakul (NIDA) — thitirat@as.nida.ac.th
-Songpol Bunyang — songpol.buny@gmail.com
+Thitirat Siriborvornratanakul (thitirat@as.nida.ac.th) or Songpol Bunyang (songpol.buny@gmail.com)
 
 ## 📖 Citation
 If you use this work, please cite:
@@ -125,6 +124,10 @@ If you use this work, please cite:
   author={Siriborvornratanakul, Thitirat and Bunyang, Songpol},
   journal={Multimedia Systems},
   year={2025},
+  volume={31},
+  number={3},
+  articleno={268},
+  numpages={18},
   publisher={Springer},
   doi={10.1007/s00530-025-01834-1}
 }
